@@ -12,6 +12,8 @@ public class Main {
 
         Conver[] convers = {
                 new Fahrenheit(celsius),
+                new Reaumur(celsius),
+                new Kelvin(celsius)
                 };
 
         for(Conver conver : convers)

@@ -1,21 +1,18 @@
 package TaskThree;
 
-public class Fahrenheit extends Conver {
-    private static final String NAME = "Fahrenheit";
+public class Reaumur extends Conver {
+    private static final String NAME = "Reaumur";
     private double celsius;
 
-    public Fahrenheit(double celsius) {
-        this.celsius = celsius;
-    }
+    public Reaumur(double celsius){this.celsius = celsius; }
 
     @Override
     public double getConver(){
-
-        return celsius * 1.8 + 32;
+        return celsius * 4 / 5;
     }
 
     @Override
-    public String getName() {
+    public String getName(){
         return NAME;
     }
 
@@ -26,4 +23,5 @@ public class Fahrenheit extends Conver {
     public void setCelsius(double celsius) {
         this.celsius = celsius;
     }
+
 }

@@ -1,17 +1,17 @@
 package TaskThree;
 
-public class Fahrenheit extends Conver {
-    private static final String NAME = "Fahrenheit";
+public class Kelvin extends Conver {
+    private static final String NAME = "Kelvin";
     private double celsius;
 
-    public Fahrenheit(double celsius) {
+    public Kelvin(double celsius) {
         this.celsius = celsius;
     }
 
     @Override
     public double getConver(){
 
-        return celsius * 1.8 + 32;
+        return celsius + 273.15;
     }
 
     @Override
