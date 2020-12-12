@@ -15,7 +15,7 @@ public class Triangle extends Figure {
 
     @Override
     public double getArea() {
-        double p = (sideA + sideB + sideC) / 2;
+        double p = (sideA + sideB + sideC) / 2; // полупериметр триугольника
         return Math.sqrt(p * (p - sideA) * (p - sideB) * (p - sideC));
     }
 

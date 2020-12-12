@@ -5,7 +5,7 @@ public class Main {
         Figure[] figurs = {
                 new Circle(13),
                 new Rectangle(3, 14),
-                new Triangle(6, 3, 1)};
+                new Triangle(15, 23, 15)};
 
         for(Figure figure : figurs)
             System.out.println(figure.getName() + ": area = " + figure.getArea());
