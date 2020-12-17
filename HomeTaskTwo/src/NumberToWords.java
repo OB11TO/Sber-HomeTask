@@ -1,6 +1,9 @@
 import java.io.*;
 import java.util.Scanner;
 
+/**
+ * Задание 1: Подсчитайте количество различных слов в файле + строк
+ */
 
 public class NumberToWords {
     public static void main(String[] args) throws FileNotFoundException {
