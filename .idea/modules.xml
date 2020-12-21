@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HomeTaskOne/HomeTaskOne.iml" filepath="$PROJECT_DIR$/HomeTaskOne/HomeTaskOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeTaskTrhee/HomeTaskTrhee.iml" filepath="$PROJECT_DIR$/HomeTaskTrhee/HomeTaskTrhee.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeTaskTwo/HomeTaskTwo.iml" filepath="$PROJECT_DIR$/HomeTaskTwo/HomeTaskTwo.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeTaskOne/OneTask/OneTask.iml" filepath="$PROJECT_DIR$/HomeTaskOne/OneTask/OneTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Sber-HomeTask.iml" filepath="$PROJECT_DIR$/.idea/Sber-HomeTask.iml" />
