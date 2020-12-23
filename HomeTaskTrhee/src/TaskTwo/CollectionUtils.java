@@ -64,11 +64,6 @@ public class CollectionUtils {
         addAll(list,tList);
         tList.sort(comparator);
         return tList.subList(indexOf(list,min), indexOf(list,max) + 1);
-        /*
-            return list.stream()
-                .sorted(comparator)
-                .filter(t -> comparator.compare(t,min)>=0&&comparator.compare(t,max)<=0)
-                .collect(Collectors.toList());
-        */
+
     }
 }
