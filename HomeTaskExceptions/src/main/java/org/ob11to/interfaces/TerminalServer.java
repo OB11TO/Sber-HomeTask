@@ -1,12 +1,9 @@
 package org.ob11to.interfaces;
 
 /**
- * Интерфейс терминала
+ * Интерфейс для проверки ввода и выводы денег
  */
-
-public interface Terminal {
-
-    void putPin(int pin);
+public interface TerminalServer {
 
     void putMoney(int allMoney);
 
