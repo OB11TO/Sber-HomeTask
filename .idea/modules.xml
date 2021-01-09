@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/HomeTaskExceptions/HomeTaskExceptions.iml" filepath="$PROJECT_DIR$/HomeTaskExceptions/HomeTaskExceptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeTaskOne/HomeTaskOne.iml" filepath="$PROJECT_DIR$/HomeTaskOne/HomeTaskOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeTaskTrhee/HomeTaskTrhee.iml" filepath="$PROJECT_DIR$/HomeTaskTrhee/HomeTaskTrhee.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeTaskTwo/HomeTaskTwo.iml" filepath="$PROJECT_DIR$/HomeTaskTwo/HomeTaskTwo.iml" />
