@@ -29,7 +29,7 @@ public class TerminalImpl implements Terminal {
 
             pinValidator.verifyPin(pin); // отправка пина для проверки
             access = true;
-            System.err.println("Верный PIN-код.");
+            System.out.println("Верный PIN-код.");
 
         } catch (AccountIsLockedException | IncorrectlyEnteredThePinCodeException e) {
             System.err.println(HandleExceptions.handleException(e));
@@ -42,7 +42,7 @@ public class TerminalImpl implements Terminal {
     public void putMoney(int allMoney) {
         try {
             checkTerminalAccess();
-            System.err.println("Сделка прошла успешно. Вы положили деньги в банковский счёт " +  server.putMoney(allMoney) +  " $");
+            System.out.println("Сделка прошла успешно. Вы положили деньги в банковский счёт " +  server.putMoney(allMoney) +  " $");
         } catch (WrongAmountOfMoneyException |PinCodeIsNotEnteredException e) {
             System.err.println(HandleExceptions.handleException(e));
         }
@@ -54,7 +54,7 @@ public class TerminalImpl implements Terminal {
     public void getMoney(int allMoney) {
         try {
             checkTerminalAccess();
-            System.err.println("Сделка прошла успешно. Вы сняли деньги с банковского счета " +  server.getMoney(allMoney) +  " $");
+            System.out.println("Сделка прошла успешно. Вы сняли деньги с банковского счета " +  server.getMoney(allMoney) +  " $");
         } catch (NotEnoughMoneyException | WrongAmountOfMoneyException | PinCodeIsNotEnteredException e) {
             System.err.println(HandleExceptions.handleException(e));
 
@@ -65,7 +65,7 @@ public class TerminalImpl implements Terminal {
     public void checkBalance() {
         try{
             checkTerminalAccess();
-            System.err.println("Баланс вашего счета  " + server.checkBalance() +  " $");
+            System.out.println("Баланс вашего счета  " + server.checkBalance() +  " $");
         } catch (PinCodeIsNotEnteredException e) {
             System.err.println(HandleExceptions.handleException(e));
         }
