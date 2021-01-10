@@ -31,12 +31,13 @@ public class Main {
             System.err.println("4) Завершить работу. ");
             System.err.println();
             int count = console.nextInt();
+            CheckSum sum = new CheckSum();
             switch (count) {
                 case 1:
-                    CheckSum.checkSum(1);
+                    sum.checkSum(1);
                     break;
                 case 2:
-                    CheckSum.checkSum(2);
+                    sum.checkSum(2);
                     break;
                 case 3:
                     terminal.checkBalance();

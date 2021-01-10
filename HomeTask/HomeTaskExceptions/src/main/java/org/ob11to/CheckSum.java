@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class CheckSum extends Main{
 
-    public static void checkSum(int num) {
+    public  void checkSum(int num) {
         terminal = new TerminalImpl();
         console = new Scanner(System.in);
 

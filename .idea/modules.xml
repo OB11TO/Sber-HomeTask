@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HomeTaskExceptions/HomeTaskExceptions.iml" filepath="$PROJECT_DIR$/HomeTaskExceptions/HomeTaskExceptions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeTaskOne/HomeTaskOne.iml" filepath="$PROJECT_DIR$/HomeTaskOne/HomeTaskOne.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeTaskTrhee/HomeTaskTrhee.iml" filepath="$PROJECT_DIR$/HomeTaskTrhee/HomeTaskTrhee.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeTaskTwo/HomeTaskTwo.iml" filepath="$PROJECT_DIR$/HomeTaskTwo/HomeTaskTwo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeTask_4/HomeTask_4.iml" filepath="$PROJECT_DIR$/HomeTask_4/HomeTask_4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeTaskOne/OneTask/OneTask.iml" filepath="$PROJECT_DIR$/HomeTaskOne/OneTask/OneTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeTask/HomeTaskExceptions/HomeTaskExceptions.iml" filepath="$PROJECT_DIR$/HomeTask/HomeTaskExceptions/HomeTaskExceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeTask/HomeTaskOne/HomeTaskOne.iml" filepath="$PROJECT_DIR$/HomeTask/HomeTaskOne/HomeTaskOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeTask/HomeTaskTrhee/HomeTaskTrhee.iml" filepath="$PROJECT_DIR$/HomeTask/HomeTaskTrhee/HomeTaskTrhee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeTask/HomeTaskTwo/HomeTaskTwo.iml" filepath="$PROJECT_DIR$/HomeTask/HomeTaskTwo/HomeTaskTwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeTask/HomeTask_4/HomeTask_4.iml" filepath="$PROJECT_DIR$/HomeTask/HomeTask_4/HomeTask_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeTask/HomeTaskOne/OneTask/OneTask.iml" filepath="$PROJECT_DIR$/HomeTask/HomeTaskOne/OneTask/OneTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Sber-HomeTask.iml" filepath="$PROJECT_DIR$/.idea/Sber-HomeTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/task/TaskOne/TaskOne.iml" filepath="$PROJECT_DIR$/task/TaskOne/TaskOne.iml" />
     </modules>
