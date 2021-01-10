@@ -20,9 +20,9 @@ public class HandleExceptions {
         if (e instanceof NotEnoughMoneyException) {
             messege = "NotEnoughMoneyException - На счету не хватает наличных.";
         }
-        if (e instanceof PinCodeIsNotEnteredException) {
+       /* if (e instanceof PinCodeIsNotEnteredException) {
             messege = "PinCodeIsNotEnteredException - Вы не ввели PIN-Code. Введите PIN-Code, а затем повторите попытку.";
-        }
+        }*/
 
         return messege;
     }

@@ -43,7 +43,7 @@ public class TerminalImpl implements Terminal {
         try {
             checkTerminalAccess();
             System.out.println("Сделка прошла успешно. Вы положили деньги в банковский счёт " +  server.putMoney(allMoney) +  " $");
-        } catch (WrongAmountOfMoneyException |PinCodeIsNotEnteredException e) {
+        } catch (WrongAmountOfMoneyException  e) {
             System.err.println(HandleExceptions.handleException(e));
         }
 
@@ -55,7 +55,7 @@ public class TerminalImpl implements Terminal {
         try {
             checkTerminalAccess();
             System.out.println("Сделка прошла успешно. Вы сняли деньги с банковского счета " +  server.getMoney(allMoney) +  " $");
-        } catch (NotEnoughMoneyException | WrongAmountOfMoneyException | PinCodeIsNotEnteredException e) {
+        } catch (NotEnoughMoneyException | WrongAmountOfMoneyException  e) {
             System.err.println(HandleExceptions.handleException(e));
 
         }
@@ -73,7 +73,7 @@ public class TerminalImpl implements Terminal {
 
     private void checkTerminalAccess()throws PinCodeIsNotEnteredException {
         if(!access){
-            throw new PinCodeIsNotEnteredException();
+            //throw new PinCodeIsNotEnteredException();
         }
     }
 

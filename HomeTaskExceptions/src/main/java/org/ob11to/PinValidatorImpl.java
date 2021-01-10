@@ -7,7 +7,6 @@ import org.ob11to.interfaces.PinValidator;
 import java.util.Date;
 
 public class PinValidatorImpl implements PinValidator {
-    private final int pinCodeClient = 1111;  //пин код клиента
     private int pinError;  //ошибочный пин
     private long dateError;  //временная дата для ошибки
 
@@ -26,6 +25,8 @@ public class PinValidatorImpl implements PinValidator {
             throw new AccountIsLockedException(l);
         }
 
+        //пин код клиента
+        int pinCodeClient = 1111;
         if (pinCodeClient != clientIdPin) { //проверка на пин код
             pinError++;
             throw new IncorrectlyEnteredThePinCodeException(); //бросаем исключение, что пин код не верен
