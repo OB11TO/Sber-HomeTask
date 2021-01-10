@@ -10,7 +10,7 @@ public interface PinValidator {
 
     void verifyPin(int clientIdPin) throws AccountIsLockedException, IncorrectlyEnteredThePinCodeException; //функция проверки пин
 
-    void getCountPinError();  //??
+    int getCountPinError();  //??
 
-    void getBankAccountPin();  //??
+    long getBankAccountPin();  //??
 }

@@ -1,13 +1,16 @@
 package org.ob11to.interfaces;
 
+import org.ob11to.exceptions.NotEnoughMoneyException;
+import org.ob11to.exceptions.WrongAmountOfMoneyException;
+
 /**
  * Интерфейс для проверки ввода и выводы денег
  */
 public interface TerminalServer {
 
-    void putMoney(int allMoney);
+    int putMoney(int allMoney) throws WrongAmountOfMoneyException;
 
-    void getMoney(int allMoney);
+    int getMoney(int allMoney) throws NotEnoughMoneyException, WrongAmountOfMoneyException;;
 
-    void checkBalance();
+    long checkBalance();
 }

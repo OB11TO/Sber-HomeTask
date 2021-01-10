@@ -1,22 +1,35 @@
 package org.ob11to;
 
+import org.ob11to.exceptions.NotEnoughMoneyException;
+import org.ob11to.exceptions.WrongAmountOfMoneyException;
 import org.ob11to.interfaces.TerminalServer;
 
 public class TerminalServerImpl implements TerminalServer {
-    private final long balance = 1000;
+    private long balance = 1000;
 
     @Override
-    public void putMoney(int allMoney) {
-
+    public int putMoney(int allMoney) throws WrongAmountOfMoneyException {
+        if(allMoney % 100 != 0){
+            throw new WrongAmountOfMoneyException();
+        }
+        balance = balance + allMoney;
+        return allMoney;
     }
 
     @Override
-    public void getMoney(int allMoney) {
-
+    public int getMoney(int allMoney) throws NotEnoughMoneyException, WrongAmountOfMoneyException{
+        if(allMoney % 100 != 0){
+            throw new WrongAmountOfMoneyException();
+        }
+        if(allMoney > balance){
+            throw new NotEnoughMoneyException();
+        }
+        balance = balance - allMoney;
+        return allMoney;
     }
 
     @Override
-    public void checkBalance() {
-
+    public long checkBalance() {
+        return balance;
     }
 }

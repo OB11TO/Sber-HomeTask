@@ -21,6 +21,10 @@ public class PinValidatorImpl implements PinValidator {
             pinError = 0;
             throw new AccountIsLockedException();
         }
+        if (dateError > dateNow.getTime()) {
+            long l = dateError - dateNow.getTime();
+            throw new AccountIsLockedException(l);
+        }
 
         if (pinCodeClient != clientIdPin) { //проверка на пин код
             pinError++;
@@ -30,12 +34,12 @@ public class PinValidatorImpl implements PinValidator {
     }
 
     @Override
-    public void getCountPinError() {
-
+    public int getCountPinError() {
+            return pinError;
     }
 
     @Override
-    public void getBankAccountPin() {
-
+    public long getBankAccountPin() {
+        return dateError;
     }
 }
