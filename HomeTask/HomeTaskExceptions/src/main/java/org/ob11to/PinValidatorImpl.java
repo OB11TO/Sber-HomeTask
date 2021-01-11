@@ -25,7 +25,7 @@ public class PinValidatorImpl implements PinValidator {
             throw new AccountIsLockedException(l);
         }
 
-        //пин код клиента
+        //пин код клиента ( убрал доступ из привата)
         int pinCodeClient = 1111;
         if (pinCodeClient != clientIdPin) { //проверка на пин код
             pinError++;
