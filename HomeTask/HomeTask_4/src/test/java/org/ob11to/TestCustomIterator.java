@@ -11,7 +11,7 @@ class TestCustomIterator {
         String[] arr = {"one", "two", "three"};
         CustomIterator customIterator = new CustomIterator(arr);
 
-        int id = 1;
+        int id = 0;
 
         while (customIterator.hasNext()){
             assertEquals(arr[id++], customIterator.next());
