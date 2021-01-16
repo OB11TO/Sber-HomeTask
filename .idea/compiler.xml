@@ -8,11 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="HomeTask_4" />
         <module name="HomeTaskExceptions" />
+        <module name="ReflectionTask" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="HomeTask_4" target="11" />
       <module name="HomeTaskExceptions" target="11" />
+      <module name="HomeTaskReflection" target="11" />
+      <module name="ReflectionTask" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
