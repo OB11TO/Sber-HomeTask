@@ -1,6 +1,7 @@
 
 
 public class CalculatorImpl implements Calculator{
+
     @Override
     public int calc(int number) {
         int r = 1;
