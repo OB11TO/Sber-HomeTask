@@ -1,6 +1,8 @@
+import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.lang.Class;
-import java.util.Arrays;
+import java.lang.reflect.Modifier;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -23,6 +25,8 @@ public class Main {
         for(Method method : methods){
                 if(isGetter(method)) System.out.println("getter: " + method);
         }
+
+
     }
 
     public static boolean isGetter(Method method){
