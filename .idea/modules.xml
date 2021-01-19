@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HomeTask/HomeTaskExceptions/HomeTaskExceptions.iml" filepath="$PROJECT_DIR$/HomeTask/HomeTaskExceptions/HomeTaskExceptions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeTask/HomeTaskOne/HomeTaskOne.iml" filepath="$PROJECT_DIR$/HomeTask/HomeTaskOne/HomeTaskOne.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeTask/HomeTaskTrhee/HomeTaskTrhee.iml" filepath="$PROJECT_DIR$/HomeTask/HomeTaskTrhee/HomeTaskTrhee.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeTask/HomeTaskTwo/HomeTaskTwo.iml" filepath="$PROJECT_DIR$/HomeTask/HomeTaskTwo/HomeTaskTwo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeTask/HomeTask_4/HomeTask_4.iml" filepath="$PROJECT_DIR$/HomeTask/HomeTask_4/HomeTask_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeTasks/ExceptionsTask/ExceptionsTask.iml" filepath="$PROJECT_DIR$/HomeTasks/ExceptionsTask/ExceptionsTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeTasks/GenericsTask/GenericsTask.iml" filepath="$PROJECT_DIR$/HomeTasks/GenericsTask/GenericsTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeTasks/HomeTaskOne/HomeTaskOne.iml" filepath="$PROJECT_DIR$/HomeTasks/HomeTaskOne/HomeTaskOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeTasks/CollectionTask/HomeTaskTwo.iml" filepath="$PROJECT_DIR$/HomeTasks/CollectionTask/HomeTaskTwo.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeTasks/HomeTasks.iml" filepath="$PROJECT_DIR$/HomeTasks/HomeTasks.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeTask/HomeTaskOne/OneTask/OneTask.iml" filepath="$PROJECT_DIR$/HomeTask/HomeTaskOne/OneTask/OneTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeTask_1-5/MavenTestingTask/MavenTestingTask.iml" filepath="$PROJECT_DIR$/HomeTask_1-5/MavenTestingTask/MavenTestingTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeTasks/HomeTaskOne/OneTask/OneTask.iml" filepath="$PROJECT_DIR$/HomeTasks/HomeTaskOne/OneTask/OneTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/HomeTasks/ReflectionTask/ReflectionTask.iml" filepath="$PROJECT_DIR$/HomeTasks/ReflectionTask/ReflectionTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Sber-HomeTask.iml" filepath="$PROJECT_DIR$/.idea/Sber-HomeTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/task/TaskOne/TaskOne.iml" filepath="$PROJECT_DIR$/task/TaskOne/TaskOne.iml" />

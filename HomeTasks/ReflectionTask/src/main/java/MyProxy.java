@@ -24,7 +24,7 @@ public class MyProxy implements InvocationHandler {
         Object value;
         if (!method.isAnnotationPresent(Cache.class)) {
             value = method.invoke(obj, args);
-            System.err.println("Метод: " + "'" + method.getName() + "'" + " с аргументами : " + Arrays.asList(args) + " не кешировался, так как не помечен аннотацией @Cache. Ответ = " + value);
+            System.out.println("Метод: " + "'" + method.getName() + "'" + " с аргументами : " + Arrays.asList(args) + " не кешировался, так как не помечен аннотацией @Cache. Ответ = " + value);
         } else {
             KeyForMap key = new KeyForMap(method.getName(), args);
 
@@ -32,9 +32,9 @@ public class MyProxy implements InvocationHandler {
             if (value == null) {
                 value = method.invoke(obj, args);
                 cache.put(key, value);
-                System.err.println("Метод: " + "'" + method.getName() + "'" + " с аргументами : " + Arrays.asList(args) + " не вызывался, ответ кеширован. Ответ = " + value);
+                System.out.println("Метод: " + "'" + method.getName() + "'" + " с аргументами : " + Arrays.asList(args) + " не вызывался, ответ кеширован. Ответ = " + value);
             } else {
-                System.err.println("Метод: " + "'" + method.getName() + "'" + " с аргументами : " + Arrays.asList(args) + " уже вызывался, ответ получен из кеша. Ответ = " + value);
+                System.out.println("Метод: " + "'" + method.getName() + "'" + " с аргументами : " + Arrays.asList(args) + " уже вызывался, ответ получен из кеша. Ответ = " + value);
             }
         }
         return value;

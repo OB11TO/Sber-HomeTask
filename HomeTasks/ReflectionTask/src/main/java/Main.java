@@ -8,12 +8,9 @@ public class Main {
     public static void main(String[] args) {
 
         Calculator calculator = new CalculatorImpl();
-       Calculator myProxy = (Calculator) MyProxy.newInstance(calculator);
+        Calculator myProxy = (Calculator) MyProxy.newInstance(calculator);
+       // Calculator myCalculator = new PerformanceProxy(new Calculator()));
 
-        myProxy.calc(4);
-        myProxy.calc(3);
-        myProxy.calc(4);
-        myProxy.calc(3);
 
         System.out.println("Test calculator");
         System.out.println(calculator.calc(4));
@@ -31,7 +28,14 @@ public class Main {
         for(Method method : methods){
             if(isGetter(method)) System.out.println("getter: " + method);
         }
+        System.out.println("Task 5");
+        myProxy.calc(4);
+        myProxy.calc(3);
+        myProxy.calc(4);
+        myProxy.calc(3);
 
+        System.out.println("Task 5");
+        System.out.println(calculator.calc(3));
 
     }
 

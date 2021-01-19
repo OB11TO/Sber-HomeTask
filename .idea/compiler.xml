@@ -6,15 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="HomeTask_4" />
-        <module name="HomeTaskExceptions" />
+        <module name="ExceptionsTask" />
         <module name="ReflectionTask" />
+        <module name="MavenTestingTask" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="HomeTask_4" target="11" />
-      <module name="HomeTaskExceptions" target="11" />
+      <module name="ExceptionsTask" target="11" />
       <module name="HomeTaskReflection" target="11" />
+      <module name="MavenTestingTask" target="11" />
       <module name="ReflectionTask" target="11" />
     </bytecodeTargetLevel>
   </component>
