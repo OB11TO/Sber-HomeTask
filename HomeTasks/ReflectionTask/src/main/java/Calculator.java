@@ -6,5 +6,6 @@ public interface Calculator{
      * @param number
      */
     @Cache
+    @Metric
     int calc (int number);
 }

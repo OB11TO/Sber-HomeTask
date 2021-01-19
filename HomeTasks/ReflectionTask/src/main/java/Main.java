@@ -9,11 +9,12 @@ public class Main {
 
         Calculator calculator = new CalculatorImpl();
         Calculator myProxy = (Calculator) MyProxy.newInstance(calculator);
-       // Calculator myCalculator = new PerformanceProxy(new Calculator()));
+
+        Calculator myCalculator = (Calculator) PerformanceProxy.newInstance(calculator);
 
 
         System.out.println("Test calculator");
-        System.out.println(calculator.calc(4));
+        System.out.println(calculator.calc(4)+ "\n");
 
         System.out.println("Task 2");
         Class<? super CalculatorImpl> clazz = CalculatorImpl.class.getSuperclass();
@@ -24,18 +25,21 @@ public class Main {
             System.out.println(method);
         }
 
-        System.out.println("Task 3");
+        System.out.println("\nTask 3");
         for(Method method : methods){
             if(isGetter(method)) System.out.println("getter: " + method);
         }
-        System.out.println("Task 5");
+        System.out.println("\nTask 5");
         myProxy.calc(4);
         myProxy.calc(3);
         myProxy.calc(4);
         myProxy.calc(3);
 
-        System.out.println("Task 5");
-        System.out.println(calculator.calc(3));
+        System.out.println("\nTask 6");
+        System.out.println(myCalculator.calc(3));
+        System.out.println(myCalculator.calc(4));
+        System.out.println(myCalculator.calc(3));
+        System.out.println(myCalculator.calc(3));
 
     }
 
