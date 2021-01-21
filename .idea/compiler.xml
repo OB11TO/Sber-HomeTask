@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ExceptionsTask" />
+        <module name="ClassloaderTask" />
         <module name="ReflectionTask" />
         <module name="MavenTestingTask" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ClassloaderTask" target="11" />
       <module name="ExceptionsTask" target="11" />
       <module name="HomeTaskReflection" target="11" />
       <module name="MavenTestingTask" target="11" />
