@@ -1,4 +1,4 @@
-package org.ob11to.plaginMeneger;
+package org.ob11to.pluginManager;
 
 public interface Plugin {
 
