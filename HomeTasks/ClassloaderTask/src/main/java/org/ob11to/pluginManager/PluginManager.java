@@ -25,7 +25,9 @@ public class PluginManager {
             e.printStackTrace();
         }
         try {
-            plugin = (Plugin) urlClassLoader.loadClass(pluginClassName).newInstance();
+            if (urlClassLoader != null) {
+                plugin = (Plugin) urlClassLoader.loadClass(pluginClassName).newInstance();
+            }
         } catch (InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
