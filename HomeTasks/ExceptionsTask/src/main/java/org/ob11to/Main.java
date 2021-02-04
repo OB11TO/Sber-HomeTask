@@ -8,6 +8,7 @@ public class Main {
     public static Scanner console;
     public static Terminal terminal;
 
+
     public static void main(String[] args) {
         terminal = new TerminalImpl();
         console = new Scanner(System.in);

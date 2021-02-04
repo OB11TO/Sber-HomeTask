@@ -10,6 +10,7 @@ public class Main {
         Plugin plugin1 = manager.load("plugin1", "org.ob11to.pluginManager.plugins.plugin1.MyPlugin");
       //  Plugin plugin2 = manager.load("plugin1", "org.ob11to.pluginManager.plugins.plugin1.MyPlugin");
         plugin1.doUsefull();
+        //plugin1.doUsefull();
         Plugin plugin2 = manager.load("plugin2", "org.ob11to.pluginManager.plugins.plugin2.MyPlugin");
         plugin2.doUsefull();
 

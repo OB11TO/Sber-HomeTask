@@ -9,6 +9,7 @@
         <module name="ExceptionsTask" />
         <module name="ClassloaderTask" />
         <module name="ReflectionTask" />
+        <module name="StreamTask" />
         <module name="MavenTestingTask" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="HomeTaskReflection" target="11" />
       <module name="MavenTestingTask" target="11" />
       <module name="ReflectionTask" target="11" />
+      <module name="StreamTask" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
